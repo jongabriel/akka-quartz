@@ -72,7 +72,7 @@ private class QuartzIsNotScalaExecutor() extends Job {
 	}
 }
 
-trait Spigot {
+trait Spigot extends scala.Serializable {
 	def open: Boolean
 }
 
